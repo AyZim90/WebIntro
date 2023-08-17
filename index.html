@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBNEWS</title>
+</head>
+<body>
+ <marquee behavior="scroll" direction="left" bgcolor="green">
+    <h1 style="color:black">Welcome to our news site</h1>
+  </marquee>
+  <hr>
+  <hr>
+        <center>
+            <img src="./src/img/the-new-york-times-logo.png" alt="" width="1200" height="120">
+        </center>
+        <hr>
+        <hr>
+ <p id="dateDisplay"></p>
+ <script>
+     function updateDate() {
+         const currentDate = new Date();
+         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' };
+         const formattedDate = currentDate.toLocaleDateString('en-US', options);
+         document.getElementById('dateDisplay').textContent = formattedDate;
+     }
+     // Обновлять дату каждую секунду
+     setInterval(updateDate, 1000);
+     // Вызвать функцию updateDate сразу при загрузке страницы
+     updateDate();
+ </script>
+ <hr color="green">
+ <table border="0" cellspacing="10" cellpadding="0" width="100%">
+    <tr>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/world"style="color: black;">World</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/us"style="color: black;">U.S.</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/politics"style="color: black;">Politics</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/nyregion"style="color: black;">N.Y.</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/business"style="color: black;">Business</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/opinion"style="color: black;">Opinion</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/health"style="color: black;">Health</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/sports"style="color: black;">Sports</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/arts"style="color: black;">Arts</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/books"style="color: black;">Books</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/style"style="color: black;">Style</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/food"style="color: black;">Food</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/travel"style="color: black;">Travel</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/international/section/magazine"style="color: black;">Magazine</a></td>
+        <td width="100" align="center"><a href="https://cooking.nytimes.com/"style="color: black;">Cooking</a></td>
+        <td width="200" align="center"><a href="https://theathletic.com/uk/"style="color: black;">The Athletic</a></td>
+        <td width="100" align="center"><a href="https://theathletic.com/uk/"style="color: black;">Wirecutter</a></td>
+        <td width="100" align="center"><a href="https://www.nytimes.com/crosswords"style="color: black;">Games</a></td>
+    </tr>
+ </table>
+ <hr color="green">
+ 
+<table border="00" cellspacing="00" cellpadding="09" width="101%">
+    <tr>
+        <td width="0%">
+            <a href="https://www.nytimes.com/2023/08/17/world/asia/camp-david-summit-japan-south-korea-biden.html" target="_blank" style="color: black;"> 
+                <span><h2>With an Eye on China, Biden Pulls Japan and South Korea Closer</h2></span>
+            </a>
+            <a href="https://www.nytimes.com/2023/08/17/world/asia/camp-david-summit-japan-south-korea-biden.html" target="_blank" style="color: black;"> 
+                <img src="https://static01.nyt.com/images/2023/08/17/multimedia/17japan-korea-summit-plfj/17japan-korea-summit-plfj-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale" alt="" width="450" height="300">
+            </a>
+        </td>
+        <td width="0%">  
+            <p>
+                <cite> 
+                    <a href="https://www.nytimes.com/2023/08/17/world/asia/camp-david-summit-japan-south-korea-biden.html" target="_blank" style="text-decoration: none; color: black;">
+                    President Biden will host the leaders of the two Asian democracies at Camp David, as Russia’s invasion of Ukraine spurs them to rapidly mend relations. With threats growing in Asia, the leaders of the United States, Japan and South Korea will meet at Camp David on Friday, taking a major step toward a three-way military and economic partnership that would have been nearly inconceivable before Russia’s invasion of Ukraine. As the United States has tried to counter challenges from both China and North Korea, one key obstacle has been the tense and sometimes downright hostile relationship between Japan and South Korea, its two most important friends in the region...
+                </a> 
+            </cite>
+            </p>
+        </td>
+        <td width="0%">
+            <a href="https://cooking.nytimes.com/recipes/1023785-magnolia-bakerys-banana-pudding?action=click&module=Collection%20Page%20Recipe%20Card&region=The%20Most%20Popular%20Recipes%20of%202023%20So%20Far&pgType=collection&rank=1" target="_blank" style="color: black;"> 
+                <span><h2>Banana Pudding. Recipe from Magnolia Bakery and adapted by Priya Krishna </h2></span>
+            </a>
+            <a href="https://cooking.nytimes.com/recipes/1023785-magnolia-bakerys-banana-pudding?action=click&module=Collection%20Page%20Recipe%20Card&region=The%20Most%20Popular%20Recipes%20of%202023%20So%20Far&pgType=collection&rank=1" target="_blank" style="color: black;"> 
+                <img src="https://static01.nyt.com/images/2023/01/18/multimedia/13PUDDING-REX2-banana-pudding-jlmg/18PUDDING-REX2-banana-pudding-jlmg-master768.jpg?w=1280&q=75" alt="" width="500" height="300">
+            </a>
+        </td>
+        <td width="0%">
+            <p>
+                <cite> 
+                    <a href="https://cooking.nytimes.com/recipes/1023785-magnolia-bakerys-banana-pudding?action=click&module=Collection%20Page%20Recipe%20Card&region=The%20Most%20Popular%20Recipes%20of%202023%20So%20Far&pgType=collection&rank=1" target="_blank" style="text-decoration: none; color: black;">
+                    To many, the banana pudding at the famed New York shop Magnolia Bakery is even more iconic than the store’s beloved cupcakes. Airy, creamy and delightfully reminiscent of childhood packaged snacks (thanks to instant vanilla pudding mix), this dessert is both a crowd pleaser and easy to assemble. If you’re making 12 individual servings rather than one large one, you’ll have enough cookies to use two...<h5>—Priya Krishna</h5>
+                </a> 
+            </cite>
+            </p>
+        </td>
+    </tr>
+</table>
+<hr>
+<hr>
+<table border="00" cellspacing="00" cellpadding="35" width="100%" style="background-color: grey;">
+<tr>
+<td width="30%">
+    <marquee behavior="scroll" direction="left">
+    <h3>Built-in map with Google Maps</h3>
+</marquee>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25052.646118561527!2d-122.41941564961559!3d37.77492955153974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807f9fe24d77%3A0x4a4d2f8d7eb3250!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1628625519010!5m2!1sen!2sus" width="400" height="250" style="border:0; color: black;" allowfullscreen="" loading="lazy"></iframe>    
+</td>
+<td>
+    <marquee behavior="scroll" direction="left">
+<h3>Link from YouTube channel</h3>
+</marquee>
+<iframe width="430" height="250" src="https://www.youtube.com/embed/MBe1h80ghKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</td>
+<td>
+    <marquee behavior="scroll" direction="left">
+<h3>Video from folder</h3>
+</marquee>
+<video width="430" height="250" src="/src/video/Part-1.mp4" ></video>
+</td width="30%">
+</tr>
+</table>
+</body>
+</html>
